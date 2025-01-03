@@ -5,11 +5,12 @@ import Progressor from "./components/Progressor";
 import ProductList from "./components/ProductList";
 import Banner from "./components/Banner";
 import Pizza from "./components/Pizza";
-import Menuitem from "./components/Menuitem";
+
 import Offer from "./components/Offer";
 import Card from "./components/Card";
 import Reservation from "./components/Reservation";
 import Footer from "./components/Footer";
+import Menu from "./components/Menuitem";
 
 
 
@@ -22,11 +23,11 @@ export default function App() {
       <Pizza />
       <Banner />
       <ProductList />
-      <Menuitem />
       <Offer />
-      <Card/>
-      <Reservation/>
-      <Footer/>
+      <Menu/>
+      <Card />
+      <Reservation />
+      <Footer />
     </div>
   );
 }
